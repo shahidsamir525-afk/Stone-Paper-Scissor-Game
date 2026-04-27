@@ -19,9 +19,9 @@ def play():
 
     if winner == "user":
         print("You win!")
-        util.user_score += 1
+        utils.user_score += 1
     elif winner == "computer":
         print("Computer wins!")
-        util.computer_score += 1
+        utils.computer_score += 1
     else:
         print("It's a draw!")
